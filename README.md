@@ -74,25 +74,87 @@ This project addresses these questions through data-driven analysis.
 
 ---
 
-# 🔄 Analytics Workflow
+## 🔄 Project Workflow
 
 ```text
-Raw Dataset
-     │
-     ▼
-Data Cleaning & Validation (Python)
-     │
-     ▼
-Feature Engineering
-     │
-     ▼
-PostgreSQL Database
-     │
-     ▼
-Business Analysis Using SQL
-     │
-     ▼
-Power BI Dashboard
-     │
-     ▼
-Business Insights & Recommendations
+┌──────────────────────────────────────┐
+│ Customer Shopping Dataset (CSV)      │
+│ 3,900 Records | 18 Features          │
+└──────────────────┬───────────────────┘
+                   │
+                   ▼
+┌──────────────────────────────────────┐
+│ Data Exploration (Python)            │
+│ • Pandas                             │
+│ • df.info()                          │
+│ • df.describe()                      │
+│ • Missing Value Analysis             │
+└──────────────────┬───────────────────┘
+                   │
+                   ▼
+┌──────────────────────────────────────┐
+│ Data Cleaning & Preparation          │
+│ • Median Imputation                  │
+│ • Column Standardization             │
+│ • Data Validation                    │
+│ • Redundancy Removal                 │
+└──────────────────┬───────────────────┘
+                   │
+                   ▼
+┌──────────────────────────────────────┐
+│ Feature Engineering                  │
+│ • Age Group Creation                 │
+│ • Purchase Frequency Metrics         │
+│ • Customer Segmentation Variables    │
+└──────────────────┬───────────────────┘
+                   │
+                   ▼
+┌──────────────────────────────────────┐
+│ PostgreSQL Integration               │
+│ • SQLAlchemy                         │
+│ • PostgreSQL Database                │
+│ • Data Loading from Python           │
+└──────────────────┬───────────────────┘
+                   │
+                   ▼
+┌──────────────────────────────────────┐
+│ SQL Business Analysis                │
+│ • Aggregations                       │
+│ • CASE Statements                    │
+│ • CTEs                               │
+│ • Window Functions                   │
+│ • ROW_NUMBER()                       │
+│ • Revenue Analysis                   │
+│ • Customer Segmentation              │
+│ • Product Performance Analysis       │
+│ • Subscription Analysis              │
+└──────────────────┬───────────────────┘
+                   │
+                   ▼
+┌──────────────────────────────────────┐
+│ Data Visualization (Power BI)        │
+│ • KPI Cards                          │
+│ • Bar Charts                         │
+│ • Pie Charts                         │
+│ • Slicers & Filters                  │
+│ • Interactive Dashboard              │
+└──────────────────┬───────────────────┘
+                   │
+                   ▼
+┌──────────────────────────────────────┐
+│ Business Insights                    │
+│ • Revenue Drivers                    │
+│ • Customer Behavior                  │
+│ • Product Preferences                │
+│ • Discount Impact                    │
+│ • Subscription Trends                │
+└──────────────────┬───────────────────┘
+                   │
+                   ▼
+┌──────────────────────────────────────┐
+│ Strategic Recommendations            │
+│ • Loyalty Programs                   │
+│ • Subscription Growth                │
+│ • Marketing Optimization             │
+│ • Product Promotion Strategy         │
+└──────────────────────────────────────┘

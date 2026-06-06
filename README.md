@@ -132,12 +132,16 @@ This project addresses these questions through data-driven analysis.
                    │
                    ▼
 ┌──────────────────────────────────────┐
-│ Data Visualization (Power BI)        │
-│ • KPI Cards                          │
-│ • Bar Charts                         │
-│ • Pie Charts                         │
-│ • Slicers & Filters                  │
-│ • Interactive Dashboard              │
+ Data Visualization (Power BI)        
+  • KPI Cards
+  • Donut Chart
+  • Clustered Column Chart
+  • Clustered Bar Chart
+  • Slicers
+  • Interactive Filtering
+  • Data Modeling
+  • DAX Measures
+  • Dashboard Design
 └──────────────────┬───────────────────┘
                    │
                    ▼
